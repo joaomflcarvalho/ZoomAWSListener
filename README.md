@@ -31,7 +31,8 @@ node worker.js \
   "<ClientID>" \
   "<ClientSecret>" \
   "<ODC_ApiKey>" \
-  "<ODC_CallbackURL>"```
+  "<ODC_CallbackURL>"
+```
 
 ## 📦 Deployment (AMI Creation)
 To build the "Golden Image" for AWS:
@@ -41,14 +42,16 @@ Launch an Amazon Linux 2023 instance.
 Install Node.js:
 
 ```bash
-sudo yum install -y nodejs```
+sudo yum install -y nodejs
+```
 
 Clone this repo:
 
 ```bash
 git clone [https://github.com/](https://github.com/)<YOUR_USERNAME>/ZoomAWSListener.git
 cd ZoomAWSListener
-npm install```
+npm install
+```
 
 Important: Ensure the startup script (User Data) in your ODC Launcher points to the correct path (e.g., /home/ec2-user/ZoomAWSListener/worker.js).
 
