@@ -1,6 +1,6 @@
 # Zoom RTMS - AWS Listener Worker
 
-A lightweight Node.js worker designed to run on ephemeral AWS EC2 instances. It connects to Zoom's Real-Time Meeting Stream (RTMS) via WebSocket, performs the handshake, and forwards transcript data to an OutSystems ODC endpoint. To implement the AWS EC2 listener follow to this repo: https://github.com/joaomflcarvalho/ZoomAWSListener
+A lightweight Node.js worker designed to run on ephemeral AWS EC2 instances. It connects to Zoom's Real-Time Meeting Stream (RTMS) via WebSocket, performs the handshake, and forwards transcript data to an OutSystems ODC endpoint. 
 
 ## 🚀 Architecture
 
